@@ -1,9 +1,8 @@
 # DASCTF 征题 Docker 模板-Ubuntu19.04-Xinetd-Chroot-Normal
 ## 内含组件
-Ubuntu19.04
+- Ubuntu19.04
 - Xinetd
 - Chroot
-- Normal
 
 ## 使用方法
 1. 请在 https://github.com/DASCTF-Test/Pwn-Ubuntu19.04-Xinetd-Chroot-Normal-Test  基础上修改即可。
