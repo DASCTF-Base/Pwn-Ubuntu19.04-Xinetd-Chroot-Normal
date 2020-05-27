@@ -34,7 +34,7 @@ RUN rm /etc/apt/sources.list && \
     mv /tmp/files/pwn /home/ctf/pwn && \
     mv /tmp/files/start.sh / && \
     mv /tmp/files/flag.sh / && \
-    rm -rf /tmp/* /var/tmp/*
+    rm -rf /tmp/* /var/tmp/* && chmod +x /home/ctf/pwn /flag.sh /start.sh
 
 WORKDIR /home/ctf
 
